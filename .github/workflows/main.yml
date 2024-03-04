@@ -7,8 +7,8 @@ on:
       - main
 name: "Build & Release"
 jobs:
-  build:
-    name: Build & Release
+  build_android:
+    name: Build Android & Release
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v1
@@ -20,10 +20,37 @@ jobs:
           flutter-version: "3.19.2"
       - run: flutter pub get
       - run: flutter build apk --release --no-shrink --verbose
-      - run: flutter build appbundle  --verbose
-      - name: Push to Releases   
+      - run: flutter build appbundle --verbose
+      - name: Push Android Artifacts to Releases   
         uses: ncipollo/release-action@v1  
         with:
           artifacts: "build/app/outputs/flutter-apk/*,build/app/outputs/bundle/release/*"
           tag: v1.0.${{github.run_number}} 
           token: ${{secrets.DEMOTOKEN}}
+  build_ios:
+    name: Build iOS
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install Xcode
+        uses: actions/setup-xcode@v2
+        with:
+          xcode-version: '13.x' # or whatever version you need
+      - name: Build iOS App
+        run: flutter build ios --release --no-codesign
+  distribute:
+    name: Distribute using Firebase App Distribution
+    runs-on: ubuntu-latest
+    needs: [build_android, build_ios]
+    steps:
+      - name: Install Firebase CLI
+        run: |
+          curl -sL https://firebase.tools | bash
+      - name: Firebase login
+        run: firebase login:ci --no-localhost
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - name: Upload APK to Firebase App Distribution
+        run: firebase appdistribution:distribute build/app/outputs/flutter-apk/*.apk --token "${{ secrets.FIREBASE_TOKEN }}"
+      - name: Upload iOS Build to Firebase App Distribution
+        run: firebase appdistribution:distribute build/ios/Runner.ipa --token "${{ secrets.FIREBASE_TOKEN }}"
