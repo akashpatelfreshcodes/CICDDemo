@@ -35,12 +35,12 @@ jobs:
       - name: Install Xcode
         uses: actions/setup-xcode@v2
         with:
-          xcode-version: '13.x' # or whatever version you need
+          xcode-version: '15.x' # or whatever version you need
       - name: Build iOS App
         run: flutter build ios --release --no-codesign
   distribute:
     name: Distribute using Firebase App Distribution
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     needs: [build_android, build_ios]
     steps:
       - name: Install Firebase CLI
