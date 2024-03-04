@@ -1137,7 +1137,7 @@
 					"\"WebKit\"",
 					"-ld64",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HealthGauge.CICDDemoPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HealthGauge.CICDDemoPros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
@@ -1573,7 +1573,7 @@
 					"\"WebKit\"",
 					"-ld64",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HealthGauge.CICDDemoPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HealthGauge.CICDDemoPros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1819,7 +1819,7 @@
 					"\"WebKit\"",
 					"-ld64",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HealthGauge.CICDDemoPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HealthGauge.CICDDemoPros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
