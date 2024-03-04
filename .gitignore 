@@ -1,0 +1,25 @@
+# Miscellaneous
+*.log
+*.DS_Store
+*.idea/
+*.iml
+*.metadata
+
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.packages
+.pub/
+/build/
+/ios/build/
+/android/build/
+/ios/Flutter/flutter_assets/
+/android/app/src/main/flutter_assets/
+/linux/
+/macos/
+/windows/
+/linux/*
+/macos/*
+/windows/*
+
+*.lock

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#E91E63</color>
+
+    <color name="actionBarColor">#009CDE</color>
+    <color name="actionBarColorDark">#0081B7</color>
+    <color name="backgroundColor">#003D56</color>
+
+    <color name="button_normal">#2878FF</color>
+    <color name="button_pressed">#2955C5</color>
+    <color name="button_disabled">#BDBDBD</color>
+</resources>

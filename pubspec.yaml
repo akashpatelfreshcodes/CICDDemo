@@ -1,0 +1,151 @@
+name: health_gauge
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+   #Firebase
+  firebase:
+  firebase_crashlytics:
+  firebase_core:
+  firebase_messaging: 14.6.4
+  firebase_dynamic_links:
+  firebase_auth:
+  flutter_secure_storage: ^8.1.0
+#  location: 5.0.3
+  location: 5.0.0
+  geocoding: ^2.0.1
+  network_info_plus:
+  package_info_plus:
+  path_provider: ^2.0.2
+  device_info: ^2.0.2
+  permission_handler: ^11.0.0
+  url_launcher: ^6.0.9
+  connectivity_plus:
+  advance_pdf_viewer: ^2.0.0
+  file_picker:
+  open_file:
+  image_picker: ^0.8.5
+  emoji_picker_flutter: ^1.0.6
+  fluttertoast: ^8.0.8
+  flutter_local_notifications: ^16.0.0+1
+  wakelock: ^0.6.2
+  flutter_downloader: 1.10.1
+  image_cropper: ^4.0.1
+  image_downloader:
+    git:
+      url: https://github.com/tHEO2k17/image_downloader.git
+      ref: master
+  camera: ^0.10.0+3
+
+  sentry_flutter: ^7.10.1
+
+  app_settings: ^5.1.1
+  google_maps_flutter: ^2.0.6
+#  cloud_firestore:
+  flutter_logs: ^2.1.4
+  datadog_flutter_plugin: ^1.6.0
+  logging: ^1.0.1
+  flutter_blue_plus: ^1.17.0
+  flutter_inappwebview: ^5.7.2+3
+  activity_recognition_flutter: ^4.0.3
+  flutter_nordic_dfu: 3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+
+  flutter_lints: 3.0.1
+
+  # API/DB dependecies
+#  retrofit_generator: ^7.0.8
+#  json_curerializable: ^6.1.4
+#  hive_generator: any
+  build_runner: ^2.1.7
+
+#  dart_code_metrics: any
+#  flutter_math_fork: ^0.7.1
+#  web_socket_channel: ^2.2.0
+#  # Clipboard
+#  clipboard: ^0.1.3
+#  cron: ^0.5.1
+  # input_quantity: ^2.2.0
+
+
+
+  #terra SDK
+  terra_flutter_bridge: ^0.4.8
+
+
+dependency_overrides:
+#  package_info_plus_windows: 3.0.0
+#  syncfusion_flutter_charts: 23.1.36
+#  syncfusion_flutter_sliders: 23.1.36
+#  syncfusion_flutter_core: 23.1.36
+
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+
+flutter:
+
+#  fonts:
+#    - family: Nunito
+#      fonts:
+#        - asset: fonts/Nunito-Regular.ttf
+#        - asset: fonts/Nunito-SemiBold.ttf
+#        - asset: fonts/Nunito-Bold.ttf
+#          weight: 700
+
+  uses-material-design: true
+
+#  assets:
+#    - asset/
+#    - asset/2.0x/
+#    - asset/3.0x/
+#    - asset/Help/
+#    - asset/Sport/
+#    - asset/Wellness/
+#    - asset/HomeItem/
+#    - asset/mapScreenActivity/
+#    - asset/help.html
+#    - asset/terms_and_condition.html
+#    - asset/help_french.html
+#    - asset/terms_and_condition_french.html
+#    - asset/Defaulttags.json
+#    - asset/files/
+#    - tfl/

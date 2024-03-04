@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>660038837088-n2sstlip396kv8orefr1t84rd6jt5f9b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.660038837088-n2sstlip396kv8orefr1t84rd6jt5f9b</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>660038837088-0fmnsk9sfrupj7llm9iffpaq4lfsnmj9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB2duzSzymHRxDPj8ZRx0QzrjpQ5p2dLF0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>660038837088</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.medwatch</string>
+	<key>PROJECT_ID</key>
+	<string>health-gauge</string>
+	<key>STORAGE_BUCKET</key>
+	<string>health-gauge.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:660038837088:ios:ae91784983b0ee0e3c7405</string>
+	<key>DATABASE_URL</key>
+	<string>https://health-gauge.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.Meritopia.HealthGauge</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>HealthGauge</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>health_gauge</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FDAllFilesDownloadedMessage</key>
+	<string>All files have been downloaded</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>Location</key>
+	<string></string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Play using while you are hiking</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>“HealthGauge” Would Like to Use Bluetooth … This will allow “HealthGauge” to connect to your bracelet to track your health records </string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>“HealthGauge” Would Like to Use Bluetooth … This will allow “HealthGauge” to connect to your bracelet to track your health records </string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>“HealthGauge” Would Like to Access your calendar ... This will allow "HealthGauge" to let you to add reminders and also see your record history. </string>
+	<key>NSCameraUsageDescription</key>
+	<string>Used to demonstrate image picker plugin</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This application may access your contacts</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>We will sync your data with the Apple Health app to give you better insights</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>We will sync your data with the Apple Health app to give you better insights</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>App Need Location  Permission</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This application may access your location for scanning bluetooth devices</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>App Need Location  Permission</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Used to capture audio for NLP feature</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This application may access your motion use</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Additional Photo Library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Used to demonstrate image picker plugin</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Recognize speech</string>
+	<key>NSUserActivityTypes</key>
+	<dict>
+		<key>item</key>
+		<string>com.Meritopia.HealthGauge.StartMeasurement</string>
+		<key>item2</key>
+		<string>com.Meritopia.HealthGauge.TakeWeightMeasurement</string>
+		<key>item3</key>
+		<string>com.Meritopia.HealthGauge.TellHealthGauge</string>
+		<key>item4</key>
+		<string>com.apple.healthkit</string>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>io.flutter.embedded_views_preview</key>
+	<string>YES</string>
+</dict>
+</plist>

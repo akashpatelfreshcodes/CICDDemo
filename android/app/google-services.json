@@ -1,0 +1,177 @@
+{
+  "project_info": {
+    "project_number": "660038837088",
+    "firebase_url": "https://health-gauge.firebaseio.com",
+    "project_id": "health-gauge",
+    "storage_bucket": "health-gauge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660038837088:android:c411ffd425d2fe523c7405",
+        "android_client_info": {
+          "package_name": "com.HealthGauge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660038837088-19v252u2ldeotcer5tsvrjl31r8jl7nq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "c66312265f4461ffc58dedd778450220637fe4da"
+          }
+        },
+        {
+          "client_id": "660038837088-45dm44o5s7gd542noac5pkes3jd6af35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "3fbc93a5022fb5062f50ce12c50e5556fb9c3929"
+          }
+        },
+        {
+          "client_id": "660038837088-59bfn6qvcot6rlgupk37vni32e2f46ao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "a417c8a167a9d2e2593f68bf76540b8dd00adff2"
+          }
+        },
+        {
+          "client_id": "660038837088-6l2cab1ktgrs1iu69p3n37aa6ru1dlvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "6730614f0280b031206217a74101f9923b06a2cd"
+          }
+        },
+        {
+          "client_id": "660038837088-7njddss5vs0nqsbdkr26kcpm6l1e18h5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "7b3b5a07708f4d846ac77d3911a3d0e42243d475"
+          }
+        },
+        {
+          "client_id": "660038837088-b1o41kvjn67ra9b7c6e2hrcrus80tign.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "5a732d2e02f8a181dc4890393b76c6385614db91"
+          }
+        },
+        {
+          "client_id": "660038837088-fta6s3es5v9ierlnikpa67u8491jtmko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "0c226aaad97c91c8dac2411678c1d0d1efbb7c4c"
+          }
+        },
+        {
+          "client_id": "660038837088-io516rb67nu44bc6mu5pgqjqq6nfruat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "53fd6eda69caacdb7aa4bb30bcfb3e8746391dc7"
+          }
+        },
+        {
+          "client_id": "660038837088-pf5gc5seo9kv5h02gdlvesopomc0i5rg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HealthGauge",
+            "certificate_hash": "65a3f3029504dd62d7339f7eefa2a63e30f4bec9"
+          }
+        },
+        {
+          "client_id": "660038837088-in6o9f1j468i9bnd6eq2u62i8te8kaee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEFiCsOms90LCu2Dlx7uXlQlNznzhcuDQ"
+        },
+        {
+          "current_key": "AIzaSyACthJrRQiF9WKxKN8ItPepj16Qh7rfKN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660038837088-0u9eg2s3v5j18gc5ehe2mpeb3vjklvjv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "660038837088-1635p81ri4ji7bb2k6q9er1rv8ao5hc1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SaluDesignGroup.HealthGauge"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660038837088:android:f485fdc3611880a73c7405",
+        "android_client_info": {
+          "package_name": "com.health_gauge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660038837088-0fmnsk9sfrupj7llm9iffpaq4lfsnmj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.health_gauge",
+            "certificate_hash": "65a3f3029504dd62d7339f7eefa2a63e30f4bec9"
+          }
+        },
+        {
+          "client_id": "660038837088-95g7veajgujqso97e8b6j6skq8m69pfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.health_gauge",
+            "certificate_hash": "7b3b5a07708f4d846ac77d3911a3d0e42243d475"
+          }
+        },
+        {
+          "client_id": "660038837088-in6o9f1j468i9bnd6eq2u62i8te8kaee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEFiCsOms90LCu2Dlx7uXlQlNznzhcuDQ"
+        },
+        {
+          "current_key": "AIzaSyACthJrRQiF9WKxKN8ItPepj16Qh7rfKN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660038837088-0u9eg2s3v5j18gc5ehe2mpeb3vjklvjv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "660038837088-1635p81ri4ji7bb2k6q9er1rv8ao5hc1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SaluDesignGroup.HealthGauge"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

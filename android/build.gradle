@@ -1,0 +1,59 @@
+//buildscript {
+////    ext.kotlin_version = '1.9.0'
+//    ext.kotlin_version = '1.9.22'
+//    repositories {
+//        google()
+//        mavenCentral()
+//        maven {
+//            url "https://plugins.gradle.org/m2/"
+//        }
+////        maven { url "${project(':background_fetch').projectDir}/libs" }
+//    }
+//
+//
+//
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:7.2.2'
+//        classpath 'com.google.gms:google-services:4.3.13'
+//        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.7.1'
+//        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.13'
+//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//    }
+//}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        flatDir {
+            dirs 'libs'
+        }
+        configurations.all {
+            resolutionStrategy {
+                force "com.google.android.gms:play-services-location:21.0.1"
+            }
+        }
+    }
+
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'com.android.support'
+                    && !details.requested.name.contains('multidex') ) {
+                details.useVersion "27.1.1"
+            }
+        }
+    }
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

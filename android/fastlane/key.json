@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "health-gauge",
+  "private_key_id": "0de5f32aa5165ca2be6cafa9d4dbda9547a7e3a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCPwVRlRXPYny0X\nNMEZ8zUP79mOKv+VV+6ks9ayGhxGbQXDOQ1u3Lk/DuPOZ2A6w6BYSMbbnCtlTnf7\noBpyy3eiOIxyLw72xz0PWh4qbAqnqL+Ehde0bTdfqQY+a4ZsJ1GWy2sU3riLqxYZ\nzVd3ysL3xGbh53eNDPyvkDYKxgBtF7xr+OuLF1KatOhEOz7BvowLX1NwvVqSLdEK\nPkghl/GRQFayXL6RN/18U/XmZUJA91LBWab+pSKewPoAdTkrrg4GNMhC9sVFcDiL\nO6/OiAnTQI2dUEACu0WoKfH26mvfAX/wPbudL7pB1sAR5H3VhvHOI4exX6uS3WuE\nbg6lNLfxAgMBAAECggEAB7OnvREBc9Qz3Q3b0GNLBwx+cTcpKC/8ynTS4moDFKwZ\nwl/FsihH0bq/Tl80HPPfDOnRwyFw4wGnLJtTXW38neumDSZLqMGsChz1t6fAEqNY\nJu5JjCprjH/MlIar3hKldLT3asfjtuJqucVKS9IIe/ApI65kNaGx7klFdvJsoouN\n4bmUd6zolnwBTKqjOZPu851ev66TW2hvPBU9q80+ri26hOWIQW9/OyZl8UkbSmaJ\nEQqL4oDgOqO/uv9rQgGQ29NcRdLYnZdrFOxBko+HL3oI0SZMEz5ROpfXTnkinUAe\n4pzjwJkCZrAePqx85zu6KO+vkKxQ4D6PHOXTHtm1QQKBgQDFQjNStiHL3CCGBu26\ndPqMYkP3GtevjlctElHG1EF8ziXxo6F6BxrucwHCCt8PlM1xJ+wNuLG9DrlQCJBV\nImJrGrqOHAtP6prlJGxewrQwn03kWd5ZY9kQ+FpQ/R1cuWBLjvFXqYCfGS+ueTrN\nAH+IqXUEMrlOIB6zD+jndOxqsQKBgQC6kFqspjb3a7J6ty0Wxgx0iA9RVzC/pSX6\nj62jaDhgp1lt2QQaRuZLvvK/bhCVlVCDHcYihbbUA+mdyJU9rzNuXBpBy0zHeoTu\nGuGsBg5G3jefHsD8r8LOdcdjYWtRM9bPjl5XM+TXOEWqh9zq/lT7GfKm/m2skIwM\nrHb4hc3xQQKBgEGdi8TvoL5XMtpiY6GqV81qwoDoBOb4yjbL6TfiUwZY7HY8n/If\neu3mg6cwRpLARLZnOTY3QahJxYrBzoEDNwm5kmTDH2AuAehG/WVoDtg9pYNYAYZq\nmEH02tYl3CaD42w+2Dj4wTgrAJlg6hZXHBUxiSMkXE+Ij62wlSCo3BuBAoGAV/f1\nKW9+f4/iqoZw1kowWUpGnr4UGGmQzOKup1xfKQP/4RHxI0rHEHRLFgSaAU5Ull6V\nrHWMTdBCecm4xUs1XxZCsz9fRrf4siUuv+RjGvtxErB3oy5lFuDmUXAAIFvnMBsb\nVNb9UpYQE2bYvl2KSJRlnGRf5nyJ7PftaSX+g4ECgYBLil32DYSu+RNfxhapnIf5\nxPn5ju8CX75Gr90WHtGW1zVA8Pi1C4Ldn5OoOwcwlsqZ3wOcwq33g0fqtFN9UiPM\nd6oAjsmBNL0+t0LBpunzJ388N5xhhdxCmcvCq4t5CEX1lkIyAI2VTEAymH4VgLRc\nAkIhPlgmfeQ9tm20ku20pQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "health-gauge@appspot.gserviceaccount.com",
+  "client_id": "101200514180971056470",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/health-gauge%40appspot.gserviceaccount.com"
+}

@@ -1,0 +1,45 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<actions>
+    <!--    Example Action -->
+    <action intentName="actions.intent.OPEN_APP_FEATURE">
+        <fulfillment urlTemplate="https://healthgauge.page.link/features{?featureName}" >
+            <parameter-mapping
+                intentParameter="feature"
+                urlParameter="featureName" />
+        </fulfillment>
+
+        <parameter name="feature">
+            <entity-set-reference entitySetId="FeatureEntitySet" />
+        </parameter>
+    </action>
+
+    <action intentName="actions.intent.GET_THING">
+        <fulfillment urlTemplate="https://healthgauge.page.link/features{?query}">
+            <parameter-mapping intentParameter="thing.name" urlParameter="query"/>
+        </fulfillment>
+    </action>
+
+    <entity-set entitySetId="FeaturesEntitySet">
+        <entity
+            name="Start Measurement"
+            identifier="Start Measurement" />
+        <entity
+            name="Take Measurement"
+            identifier="Take Measurement" />
+        <entity
+            name="Take Weight Measurement"
+            identifier="Take Weight Measurement" />
+
+        <entity
+            name="Start Weight Measurement"
+            identifier="Start Weight Measurement" />
+        <entity
+            name="Stop Measurement"
+            identifier="Stop Measurement" />
+        <entity
+            name="Tell Health Gauge"
+            identifier="tell health gauge" />
+
+    </entity-set>
+
+</actions>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Health Gauge</string>
+
+    <string name="device_bound">Device is bound</string>
+    <string name="device_not_bound">Device not bound</string>
+    <string name="state_connect">connected</string>
+    <string name="state_disconnect">Disconnected</string>
+    <string name="state_connect_fail">Connection failed</string>
+    <string name="start">Start</string>
+    <string name="stop">stop</string>
+    <string name="report">Ecg report</string>
+    <string name="bind">Binding</string>
+    <string name="un_bind">Untied</string>
+    <string name="auto_connect_device">Automatic judgment - connecting devices or bindings</string>
+    <string name="connect_device">Connect a bound device</string>
+    <string name="set_userinfo">Set user information</string>
+    <string name="sync_time">synchronised time</string>
+    <string name="find_device">Looking for a bracelet</string>
+    <string name="get_deviceinfo">Get device information</string>
+    <string name="return_factory">reset</string>
+    <string name="set_wear">wearing method</string>
+    <string name="wear_left">Left hand</string>
+    <string name="wear_right">Right hand</string>
+    <string name="set_unit">Unit setting</string>
+    <string name="metric">Metric</string>
+    <string name="inch">Imperial</string>
+    <string name="set_clock">Clock format</string>
+    <string name="set_language">Language type</string>
+    <string name="language_chinese">Chinese</string>
+    <string name="language_english">English</string>
+    <string name="bright_screen">Raise your hand to brighten</string>
+    <string name="switch_screen">Turn the wrist to cut the screen</string>
+    <string name="po_heart">Whole snack rate</string>
+    <string name="disturb_model">Do not disturb mode</string>
+    <string name="measurement">measuring</string>
+    <string name="app_noti">APP reminder</string>
+    <string name="device_noti">Device reminder</string>
+    <string name="device_photo">Shake a picture</string>
+    <string name="device_clock">Bracelet alarm clock</string>
+    <string name="sport_target">SportTarget</string>
+    <string name="change">Change</string>
+
+
+    <!--设备设置-->
+    <string name="add">Add to</string>
+    <string name="delete">delete</string>
+    <string name="save">save</string>
+    <string name="my_switch">switch</string>
+    <string name="time">time</string>
+    <string name="change_time">Change the time</string>
+    <string name="interval">interval</string>
+    <string name="start_time">Starting time</string>
+    <string name="end_time">End Time</string>
+    <string name="save_medical">Save medication reminder settings</string>
+    <string name="save_sit">Save sedentary reminder settings</string>
+    <string name="save_drink">Save drink reminder settings</string>
+    <string name="save_meeting">Save meeting reminder settings</string>
+    <!--测量相关-->
+    <string name="calibration">calibration</string>
+    <string name="update_data">Upload measurement results</string>
+    <string name="heart">Heart rate</string>
+    <string name="sbp">Systolic blood pressure</string>
+    <string name="dbp">Diastolic blood pressure</string>
+    <string name="health_index">Health index</string>
+    <string name="health_hrv_index">HRV index</string>
+    <string name="health_fatigue_index">Fatigue indexv</string>
+    <string name="health_load_index">Load index</string>
+    <string name="health_body_index">Body index</string>
+    <string name="health_heart_index">Cardiac index</string>
+
+    <string name="dailog1_title">prompt</string>
+    <string name="dailog1_message">Restore Factory</string>
+    <string name="dailog1_positive">determine</string>
+    <string name="dailog1_negative">cancel</string>
+    <string name="dailog2_title">Turn on notifications</string>
+    <string name="dailog2_message">Request to open the APP notification service</string>
+    <string name="dailog2_positive">determine</string>
+    <string name="dailog2_negative">cancel</string>
+
+    <!--心电报告-->
+    <string name="generating_report">Generating report...</string>
+    <string name="report_generation_completed">The report is generated!</string>
+    <string name="no_ecg_data">ECG data is empty</string>
+
+    <!--Log-->
+    <string name="operating">Operating... subscript</string>
+    <string name="bind_device">Binding device</string>
+    <string name="device_connect_state">Device connection status</string>
+    <string name="un_device">Unbind</string>
+    <string name="is_bind">Determine whether it has been bound</string>
+    <string name="power">Electricity</string>
+    <string name="type">Types of</string>
+    <string name="device_number">version number</string>
+    <string name="device_name">Version name</string>
+    <string name="date">date</string>
+    <string name="kml">Calorie</string>
+    <string name="distance">distance</string>
+    <string name="step">Step count</string>
+    <string name="data">data</string>
+    <string name="sleep_all_time">Total sleep time</string>
+    <string name="deep_time">Deep sleep time</string>
+    <string name="linght_time">Light sleep time</string>
+    <string name="stayup_time">Day and night time</string>
+    <string name="wakin_count">Wake up</string>
+    <string name="all_time">total time</string>
+    <string name="sleep_max_heart">Sleep maximum heart rate</string>
+    <string name="sleep_min_heart">Sleep minimum heart rate</string>
+    <string name="sleep_avg_heart">Average sleep heart rate</string>
+    <string name="all_max_heart">Maximum heart rate throughout the day</string>
+    <string name="all_min_heart">Minimum heart rate throughout the day</string>
+    <string name="all_avg_heart">All-day heart rate</string>
+    <string name="new_heart">up to date</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="measurement_result">Measurement result</string>
+    <string name="lead_off">Lead off</string>
+    <string name="tip_1">Poor conductivity, it is recommended to test the water at the sensor contact.</string>
+    <string name="google_token">660038837088-7cmc85oo4moc4h1l15jlf3pah5b8mp0a.apps.googleusercontent.com</string>
+    <string name="jsonData">{\"code\":0,\"data\":[{\"deepSleepCount\":0,\"lightSleepCount\":19,\"sleepData\":[{\"sleepStartTime\":1620763086000,\"sleepLen\":19956,\"sleepType\":242}],\"startTime\":1620763086000,\"lightSleepTotal\":332,\"endTime\":1620783042000,\"deepSleepTotal\":0},{\"deepSleepCount\":2,\"lightSleepCount\":18,\"sleepData\":[{\"sleepStartTime\":1620847914000,\"sleepLen\":6567,\"sleepType\":242},{\"sleepStartTime\":1620854482000,\"sleepLen\":2638,\"sleepType\":241},{\"sleepStartTime\":1620857121000,\"sleepLen\":1282,\"sleepType\":242},{\"sleepStartTime\":1620858404000,\"sleepLen\":722,\"sleepType\":241},{\"sleepStartTime\":1620859127000,\"sleepLen\":7647,\"sleepType\":242}],\"startTime\":1620847914000,\"lightSleepTotal\":258,\"endTime\":1620866774000,\"deepSleepTotal\":56},{\"deepSleepCount\":1,\"lightSleepCount\":29,\"sleepData\":[{\"sleepStartTime\":1620934531000,\"sleepLen\":8304,\"sleepType\":242},{\"sleepStartTime\":1620942836000,\"sleepLen\":2116,\"sleepType\":241},{\"sleepStartTime\":1620944953000,\"sleepLen\":16431,\"sleepType\":242}],\"startTime\":1620934531000,\"lightSleepTotal\":412,\"endTime\":1620961384000,\"deepSleepTotal\":35},{\"deepSleepCount\":4,\"lightSleepCount\":11,\"sleepData\":[{\"sleepStartTime\":1621025143000,\"sleepLen\":1526,\"sleepType\":242},{\"sleepStartTime\":1621026670000,\"sleepLen\":652,\"sleepType\":241},{\"sleepStartTime\":1621027323000,\"sleepLen\":2066,\"sleepType\":242},{\"sleepStartTime\":1621029390000,\"sleepLen\":883,\"sleepType\":241},{\"sleepStartTime\":1621030274000,\"sleepLen\":8761,\"sleepType\":242},{\"sleepStartTime\":1621039036000,\"sleepLen\":3752,\"sleepType\":241},{\"sleepStartTime\":1621042789000,\"sleepLen\":2071,\"sleepType\":242},{\"sleepStartTime\":1621044861000,\"sleepLen\":886,\"sleepType\":241},{\"sleepStartTime\":1621045748000,\"sleepLen\":1316,\"sleepType\":242}],\"startTime\":1621025143000,\"lightSleepTotal\":262,\"endTime\":1621047064000,\"deepSleepTotal\":102},{\"deepSleepCount\":0,\"lightSleepCount\":17,\"sleepData\":[{\"sleepStartTime\":1621107485000,\"sleepLen\":13900,\"sleepType\":242}],\"startTime\":1621107485000,\"lightSleepTotal\":231,\"endTime\":1621121385000,\"deepSleepTotal\":0},{\"deepSleepCount\":2,\"lightSleepCount\":16,\"sleepData\":[{\"sleepStartTime\":1621122258000,\"sleepLen\":4723,\"sleepType\":242},{\"sleepStartTime\":1621126982000,\"sleepLen\":2022,\"sleepType\":241},{\"sleepStartTime\":1621129005000,\"sleepLen\":1936,\"sleepType\":242},{\"sleepStartTime\":1621130942000,\"sleepLen\":827,\"sleepType\":241},{\"sleepStartTime\":1621131770000,\"sleepLen\":4760,\"sleepType\":242}],\"startTime\":1621122258000,\"lightSleepTotal\":190,\"endTime\":1621136530000,\"deepSleepTotal\":47},{\"deepSleepCount\":2,\"lightSleepCount\":15,\"sleepData\":[{\"sleepStartTime\":1621197039000,\"sleepLen\":3104,\"sleepType\":242},{\"sleepStartTime\":1621200144000,\"sleepLen\":1327,\"sleepType\":241},{\"sleepStartTime\":1621201472000,\"sleepLen\":2378,\"sleepType\":242},{\"sleepStartTime\":1621203851000,\"sleepLen\":1018,\"sleepType\":241},{\"sleepStartTime\":1621204870000,\"sleepLen\":11024,\"sleepType\":242}],\"startTime\":1621197039000,\"lightSleepTotal\":275,\"endTime\":1621215894000,\"deepSleepTotal\":39},{\"deepSleepCount\":0,\"lightSleepCount\":1,\"sleepData\":[{\"sleepStartTime\":1621216761000,\"sleepLen\":1299,\"sleepType\":242}],\"startTime\":1621216761000,\"lightSleepTotal\":21,\"endTime\":1621218060000,\"deepSleepTotal\":0},{\"deepSleepCount\":0,\"lightSleepCount\":6,\"sleepData\":[{\"sleepStartTime\":1621272579000,\"sleepLen\":3610,\"sleepType\":242}],\"startTime\":1621272579000,\"lightSleepTotal\":60,\"endTime\":1621276189000,\"deepSleepTotal\":0},{\"deepSleepCount\":1,\"lightSleepCount\":13,\"sleepData\":[{\"sleepStartTime\":1621290029000,\"sleepLen\":6904,\"sleepType\":242},{\"sleepStartTime\":1621296934000,\"sleepLen\":2956,\"sleepType\":241},{\"sleepStartTime\":1621299891000,\"sleepLen\":8137,\"sleepType\":242}],\"startTime\":1621290029000,\"lightSleepTotal\":250,\"endTime\":1621308028000,\"deepSleepTotal\":49},{\"deepSleepCount\":1,\"lightSleepCount\":1,\"sleepData\":[{\"sleepStartTime\":1621366356000,\"sleepLen\":1862,\"sleepType\":242},{\"sleepStartTime\":1621368219000,\"sleepLen\":795,\"sleepType\":241}],\"startTime\":1621366356000,\"lightSleepTotal\":31,\"endTime\":1621369014000,\"deepSleepTotal\":13},{\"deepSleepCount\":2,\"lightSleepCount\":18,\"sleepData\":[{\"sleepStartTime\":1621375377000,\"sleepLen\":3038,\"sleepType\":242},{\"sleepStartTime\":1621378416000,\"sleepLen\":1300,\"sleepType\":241},{\"sleepStartTime\":1621379717000,\"sleepLen\":12118,\"sleepType\":242},{\"sleepStartTime\":1621391836000,\"sleepLen\":2108,\"sleepType\":241}],\"startTime\":1621375377000,\"lightSleepTotal\":252,\"endTime\":1621393944000,\"deepSleepTotal\":56},{\"deepSleepCount\":1,\"lightSleepCount\":22,\"sleepData\":[{\"sleepStartTime\":1621460442000,\"sleepLen\":9948,\"sleepType\":242},{\"sleepStartTime\":1621470391000,\"sleepLen\":2417,\"sleepType\":241},{\"sleepStartTime\":1621472809000,\"sleepLen\":6907,\"sleepType\":242}],\"startTime\":1621460442000,\"lightSleepTotal\":280,\"endTime\":1621479716000,\"deepSleepTotal\":40}],\"dataType\":1284}</string>
+
+    <string name="not_available">n/a</string>
+
+    <string name="devices_list_title">Bluetooth devices</string>
+    <string name="devices_list_scanning">Scanning for nearby devices…</string>
+    <string name="devices_list_start_scan">Scan for nearby devices</string>
+    <string name="devices_list_available">Available</string>
+    <string name="devices_list_bonded">Bonded</string>
+    <string name="devices_list_bonding">Bonding…</string>
+    <string name="devices_list_device_not_supported">Device not supported.</string>
+
+    <string name="state_connecting">Connecting…</string>
+
+    <string name="configuration_empty">This configuration is empty.</string>
+    <string name="configuration_deleted">Configuration was deleted.</string>
+
+    <string name="action_disconnect">Disconnect</string>
+    <string name="notif_uart_device_connected">UART device connected</string>
+
+    <string name="bonding">Bonding with the device&#8230;</string>
+    <string name="bonded">The device is now bonded.</string>
+    <string name="bonding_failed">Bonding failed.</string>
+
+    <string name="channel_connected_devices_title">Background connections</string>
+    <string name="channel_connected_devices_description">Shows a notification when a device is connected in background.</string>
+    <string name="channel_files_title">Files</string>
+    <string name="channel_files_description">Shows notifications when new files has been saved.</string>
+    <string name="channel_proximity_warnings_title">Proximity warnings</string>
+    <string name="channel_proximity_warnings_description">Shows notifications when a proximity device got out of range.</string>
+
+</resources>

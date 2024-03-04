@@ -1,0 +1,2 @@
+Health Gauge is a comprehensive app which is measuring the blood pressure, Heart rate, Monitor your sleep ,activities ,burned calories and give you an environment to communicate with other people in regard to your health issues. With the help of artificial intelligence Health gauge gives you the most accurate blood pressure .     *NOT INTENDED FOR MEDICAL USE, FOR FITNESS USE ONLY*
+
