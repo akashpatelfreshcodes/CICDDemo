@@ -35,7 +35,7 @@ jobs:
       - name: Install Xcode
         uses: actions/setup-xcode@v2
         with:
-          xcode-version: '15.x' # or whatever version you need
+          xcode-version: '15.2' 
       - name: Build iOS App
         run: flutter build ios --release --no-codesign
   distribute:
