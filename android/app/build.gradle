@@ -58,31 +58,32 @@ android {
             jniLibs.srcDirs = ['libs']
         }
     }
-//    buildTypes {
-//        release {
-//            // TODO: Add your own signing config for the release build.
-//            // Signing with the debug keys for now, so `flutter run --release` works.
-////            signingConfig signingConfigs.debug
-////            minifyEnabled true
-////            useProguard true
-//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-//            signingConfig signingConfigs.release
-//        }
-//    }
-//    signingConfigs {
-//        debug {
-//            storeFile file('../../Untitled')
-//            storePassword '123456'
-//            keyPassword '123456'
-//            keyAlias = 'key0'
-//        }
-//        release {
-//            storeFile file('../../Untitled')
-//            storePassword '123456'
-//            keyPassword '123456'
-//            keyAlias = 'key0'
-//        }
-//    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+//            signingConfig signingConfigs.debug
+//            minifyEnabled true
+//            useProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    signingConfigs {
+        debug {
+            storeFile file('android/app/keystore.jks')
+            storePassword '123456'
+            keyPassword '123456'
+            keyAlias = 'mykey'
+        }
+        release {
+            storeFile file('android/app/keystore.jks')
+            storePassword '123456'
+            keyPassword '123456'
+            keyAlias = 'mykey'
+        }
+    }
 
     lintOptions {
         disable 'InvalidPackage'
