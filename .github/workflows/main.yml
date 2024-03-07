@@ -10,6 +10,11 @@ jobs:
   build_android:
     name: Build Android & Release
     runs-on: macos-latest
+    env: 
+      KEY_JKS: ${{ secrets.KEY_JKS }}
+      KEY_PATH: "key.jks"
+      KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+      ALIAS_PASSWORD: ${{ secrets.ALIAS_PASSWORD }}
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-java@v1
@@ -27,6 +32,11 @@ jobs:
           artifacts: "build/app/outputs/flutter-apk/*,build/app/outputs/bundle/release/*"
           tag: v1.0.${{github.run_number}} 
           token: ${{secrets.DEMOTOKEN}}
+      - name: Upload app bundle artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: appbundle
+          path: build/app/outputs/bundle/release/app-release.aab    
   build_ios:
     name: Build iOS
     runs-on: macos-latest
@@ -38,6 +48,7 @@ jobs:
           xcode-version: '15.2' 
       - name: Build iOS App
         run: flutter build ios --release --no-codesign
+        
   distribute:
     name: Distribute using Firebase App Distribution
     runs-on: macos-latest
