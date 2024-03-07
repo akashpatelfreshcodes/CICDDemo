@@ -27,7 +27,7 @@ jobs:
       - run: flutter pub get
       - run: flutter build appbundle --verbose
       - name: Push Android Artifacts to Releases   
-        uses: ncipollo/release-action@v1  
+        uses: ncipollo/release-action@v2  
         with:
           artifacts: "build/app/outputs/flutter-apk/*,build/app/outputs/bundle/release/*"
           tag: v1.0.${{github.run_number}} 
