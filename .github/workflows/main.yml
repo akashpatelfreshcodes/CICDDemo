@@ -25,7 +25,6 @@ jobs:
         with:
           flutter-version: "3.19.2"
       - run: flutter pub get
-      - run: flutter build apk --release --no-shrink --verbose
       - run: flutter build appbundle --verbose
       - name: Push Android Artifacts to Releases   
         uses: ncipollo/release-action@v1  
