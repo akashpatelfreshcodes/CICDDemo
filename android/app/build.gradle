@@ -118,18 +118,11 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation "androidx.core:core-ktx:1.6.0"
-
-
     implementation 'com.google.android.support:wearable:2.9.0'
     compileOnly 'com.google.android.wearable:wearable:2.9.0'
     implementation 'com.google.android.gms:play-services-wearable:18.0.0'
-
-
     implementation 'no.nordicsemi.android.support.v18:scanner:1.4.3'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
-
-
-
     implementation 'com.google.firebase:firebase-analytics:19.0.0'
     implementation 'com.google.android.gms:play-services-fitness:20.0.0'
     implementation 'com.google.android.gms:play-services-auth:19.2.0'
@@ -137,14 +130,9 @@ dependencies {
     implementation 'com.github.elinkthings:BodyFatScaleSDKRepositoryAndroid:1.3.0'
     implementation 'com.github.Cutta:GifView:1.4'
     implementation 'com.android.support:multidex:1.0.3' // use latest version
-
-
-
-
     implementation files('libs/zhbracelet-sdk-2.7_p17s1.aar')
 //    implementation(name: 'zhbracelet-sdk-3.4_h51s1', ext: 'aar')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     api files('libs/rtk-bbpro-core-1.5.9.jar')
     api files('libs/rtk-core-1.1.7.jar')
     api files('libs/rtk-dfu-3.2.20.jar')
